@@ -25,6 +25,8 @@ import SweApi from "osh-js/source/core/datasource/sweapi/SweApi.datasource";
 import VideoDataLayer from "osh-js/source/core/ui/layer/VideoDataLayer";
 import VideoView from "osh-js/source/core/ui/view/video/VideoView";
 
+import MyComponent from './MyComponent'
+
 export default function App() {
     // A Cesium Ion access token can be obtained for free from https://ion.cesium.com/.
     // Do not commit your access token to a public repository.
